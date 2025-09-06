@@ -8,7 +8,7 @@ Use it between heavy preprocessors and samplers to avoid first-run OOM.
 
 ## Install
 - ComfyUI Manager → **Install from URL** → paste this repo URL  
-- or `git clone <repo>` into `ComfyUI/custom_nodes/`
+- or `git clone https://github.com/teepunkt-esspunkt/ComfyUI-SaveAndReload-Image.git` into `ComfyUI/custom_nodes/`
 
 ## Node
 **Save & Reload Image** (category: IO)  
