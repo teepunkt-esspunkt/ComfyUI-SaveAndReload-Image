@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-SaveAndReload-Image"
 description = "Save and Reload an Image to prevent first run OOM"
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"} 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
@@ -28,7 +28,7 @@ Documentation = "https://github.com/teepunkt-esspunkt/ComfyUI-SaveAndReload-Imag
 "Bug Tracker" = "https://github.com/teepunkt-esspunkt/ComfyUI-SaveAndReload-Image/issues"
 
 [tool.comfy]
-PublisherId = "teadot"
+PublisherId = "teepunkt"
 DisplayName = "ComfyUI-SaveAndReload-Image"
 Icon = ""
 includes = [] 
