@@ -22,3 +22,5 @@ Use it between heavy preprocessors and samplers to avoid first-run OOM.
   - `reloaded_image` (BHWC float, shape 1×H×W×3)
 
 ## Usage
+Use this node in between heavy preprocessors (like background removal) and samplers.  
+It forces a disk round-trip so the preprocessor frees VRAM before the sampler starts.
